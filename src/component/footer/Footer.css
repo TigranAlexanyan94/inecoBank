@@ -1,0 +1,167 @@
+
+.footerTopPan {
+  width: 100%;
+  background-color: #1d1d1d;
+}
+
+.socialPan, .phone-envelope {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone-envelope, .social-network   {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+}
+
+.social-network {
+  width: 35%;
+}
+
+.phone-envelope > div {
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone-envelope > .ddd > div > span, div > span {
+  color: #999999;
+  font-size: 20px;
+}
+
+.phone-envelope > .ddd > div > span > i, .phone-envelope > div > span > i {
+  color: white;
+  font-size: 30px;
+}
+
+.phone-envelope > .ddd > div:first-child {
+  width: 45px;
+  height: 45px;
+  background-color: #48a74a;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+}
+
+.phone-envelope > .ddd {
+  width: 46%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.phone-envelope > div > span {
+  padding-left: 10px;
+}
+
+.phone-envelope > .ddd > div > span {
+  padding-left: 10px;
+}
+
+.social-network > div {
+  width: 30px;
+  height: 30px;
+  background-color: #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.footerBottomPan {
+  width: 100%;
+  background-color: #333333;
+}
+
+.wrapList {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.social-lists {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.item {
+  padding-top: 10px;
+}
+
+a {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .socialPan {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+  }
+
+  .social-network, .phone-envelope {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-network > div {
+    margin: 5px;
+  }
+
+  .phone-envelope {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .phone-envelope > div > span > i {
+    color: white;
+    font-size: 20px;
+  }
+
+  .phone-envelope > .ddd, .phone-envelope > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .wrapList > .lists {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapList > .lists > .social-lists > .item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapList > .lists > .social-lists > .item > a {
+    font-size: 0.8em;
+  }
+
+
+
+}
+
+
+
+

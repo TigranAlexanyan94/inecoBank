@@ -1,0 +1,570 @@
+.wrap-navbar {
+  width: 100%;
+  height: 15vh;
+}
+
+.wrap-navbar > div {
+  width: 100%;
+  background-color: white;
+  transition: 0.3 ease-in-out;
+  z-index: 5;
+  position: fixed;
+}
+
+.wrap-navbar > div > .navbarMenu {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.wrap-navbar > div.fixed >  .navbarMenu > .topMenu {
+  display: none;
+}
+
+
+
+
+
+
+
+.wrap-navbar > div  > .navbarMenu >  .bottomMenu {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap-navbar > div  > .navbarMenu > .topMenu {
+  width: 100%;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.wrap-navbar > div > .logo {
+  display: none;
+}
+
+.wrap-navbar > div > .navbarMenu  > .topMenu > .nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu > .nav-menu > .nav-list, .ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu > .nav-menu >  .nav-list {
+  width: 100%;
+} 
+
+.wrap-navbar > div > .navbarMenu > .topMenu > .nav-menu > .nav-list >  .nav-list-item {
+  width: 100%;
+} 
+
+.wrap-navbar > div > .navbarMenu > .topMenu > .nav-menu > .nav-list > .nav-list-item, .nav-menu > .nav-list > .nav-list-item,
+.wrap-navbar > div > .navbarMenu > .bottomMenu >.nav-menu > .ul > li {
+  margin: 5px;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu > .nav-menu > .nav-list > .nav-list-item, .nav-menu > .nav-list > .nav-list-item > a,
+.wrap-navbar > div > .navbarMenu > .bottomMenu > .nav-menu > .ul > li > a {
+  color: black;
+}
+
+/* .wrap-navbar > .navbarMenu > .bottomMenu > .nav-menu > .ul > li > a > img {
+  display: none;
+} */
+
+
+.wrap-navbar > div > .navbarMenu > .topMenu > .nav-menu > .nav-list > .nav-list-item, .nav-menu > .nav-list > .nav-list-item > a.active, 
+.wrap-navbar > div > .navbarMenu > .bottomMenu >.nav-menu > .ul > li > a.active {
+  color: #48a74a;
+}
+
+.wrap-navbar > div > .navbarMenu > .menu-wrapper {
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > .circle {
+  width: 0px;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #48a74a;
+  border-radius: 50%;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > .three-circle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > .three-circle >
+.circle-phone, 
+.circle-question, 
+.circle-marker,
+.circle-globe {
+  width: 50px;
+  height: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  z-index: 100;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > .three-circle >
+.circle-phone, 
+.circle-question, 
+.circle-marker {
+  margin: 2px;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > 
+.circle, 
+.circle-globe {
+  margin: 2px;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > .three-circle >
+ .circle-phone, 
+ .circle-question {
+  background-color: #48a74a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > 
+.three-circle > .circle-marker > span {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > 
+.circle i, 
+.circle-phone i, 
+.circle-question i {
+  font-size: 16px;
+  font-weight: 0;
+  color: white;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > 
+.circle span, 
+.circle-phone span, 
+.circle-question span {
+  font-size: 16px;
+  font-weight: 0;
+  color: white;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > 
+.circle-marker span, 
+.circle-globe span {
+  font-size: 16px;
+  font-weight: 0;
+  color: black;
+}
+
+.wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons >
+.circle span, 
+.circle-phone span, 
+.circle-question span, 
+.circle-marker span, 
+.circle-globe span {
+  margin: 2px;
+}
+
+.wrap-navbar > div > .navbarMenu > .circle-globe {
+  padding-left: 10px;
+}
+
+.wrap-navbar > div > .navbarMenu >  .topMenu  > .kkk > .icon-buttons > 
+.nav-menu > .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap-navbar > div > .navbarMenu > .sub-menu {
+  width: 53%;
+  display: flex;
+  justify-content: space-between
+}
+
+.wrap-navbar > div > .navbarMenu > .sub-menu a {
+ text-decoration: none;
+}
+
+.wrap-navbar > div > .navbarMenu > .bottomMenu > .kkk {
+  width: 40%;
+}
+
+.wrap-navbar > div > .navbarMenu > .bottomMenu > .kkk > .sign-signup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-navbar > div > .navbarMenu > .bottomMenu > .kkk > .sign-signup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sign-in, .sign-up, .btn-review {
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+}
+
+.wrap-navbar > div > .navbarMenu > .bottomMenu > .kkk  > .sign-signup > .sign-in, 
+.wrap-navbar > div > .navbarMenu > .bottomMenu > .kkk  > .sign-signup > .btn-review {
+  color: #48a74a;
+}
+
+.wrap-navbar > div > .navbarMenu > .bottomMenu > .kkk > .sign-signup >  .sign-in span a, .sign-up span a {
+  margin: 5px;
+  font-size: 1em;
+  color: #48a74a;
+}
+
+.wrap-navbar > div > .navbarMenu > .bottomMenu > .kkk > .sign-signup >  div > .btn-review span {
+  font-size: 1em;
+  margin: 5px;
+  color: #48a74a;
+}
+
+.wrap-navbar > div > .navbarMenu > .bottomMenu > .kkk > .sign-signup > .sign-up {
+  color: #48a74a;
+  border: 2px solid #48a74a;
+}
+
+.burger-btn {
+  display: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+  .wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons {
+    width: 32%;
+    display: flex; 
+    justify-content: center;
+  }
+
+  .wrap-navbar > div > .navbarMenu > .topMenu  > .kkk {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrap-navbar > div > .navbarMenu > .bottomMenu > .kkk > .sign-signup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrap-navbar > div > .navbarMenu > .bottomMenu  > .kkk > .sign-signup > .sign-in, .btn-review {
+    color: #48a74a;
+    border: 2px solid #48a74a;
+  }
+
+  .wrap-navbar > div > .navbarMenu > .bottomMenu > .kkk > .sign-signup > .sign-up {
+    display: none;
+  }
+
+  .wrap-navbar > div > .navbarMenu > .topMenu  > .kkk > .icon-buttons > .three-circle  {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  .wrap-navbar {
+    width: 100%;
+    height: 7vh;
+  }
+
+  .wrap-navbar > div > .navbarMenu {
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+  }
+   
+  .wrap-navbar > div > .navbarMenu, 
+  .wrap-navbar > div > .icon-buttons {
+    z-index: 1;
+    background-color: white;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .topMenu, 
+  .wrap-navbar > div > .navbarMenu > .bottomMenu {
+    display: none;
+  }
+
+  .wrap-navbar > div > .burger-btn {
+    font-size: 30px;
+    color:gray;
+    z-index: 100;  
+  }
+
+  .wrap-navbar > div > .burger-btn > .fa-bars {
+    padding-right: 5px;
+  }
+
+  .wrap-navbar > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .wrap-navbar > div > .burger-btn, 
+  .wrap-navbar > div > .logo {
+    display: block;
+  }
+
+  .wrap-navbar > div > .navbarMenu  > .open > .nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .wrap-navbar > div > .navbarMenu > .open > .nav-menu > .nav-list {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    z-index: 4;
+    list-style-type: none;
+  }
+
+  .wrap-navbar > div > .navbarMenu > .open > .nav-menu > .ul {
+    width: 100%;
+    display: inline-block;
+    margin-top: 35px;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open > .nav-menu > .nav-list > .nav-list-item, .nav-menu > .nav-list > .nav-list-item,
+  .wrap-navbar > div > .navbarMenu > .open > .nav-menu > .ul > li {
+    margin: 10px;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open > .nav-menu > .nav-list > .nav-list-item, .nav-menu > .nav-list > .nav-list-item > a,
+  .wrap-navbar > div > .navbarMenu > .open > .nav-menu > .ul > li > a {
+    color: black;
+  }
+
+  .wrap-navbar > div > .navbarMenu > .open > .nav-menu > .ul > li > a > img {
+    display: none;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open > .nav-menu > .nav-list > .nav-list-item, .nav-menu > .nav-list > .nav-list-item > a.active, 
+  .wrap-navbar > div > .navbarMenu > .open >.nav-menu > .ul > li > a.active {
+    color: #48a74a;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons {
+    width: 245px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 360px
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons > .circle {
+    display: none;
+  } 
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons > .three-circle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons > .three-circle >
+   .circle-phone,
+   .circle-question, 
+   .circle-marker, 
+   .circle-globe {
+    width: 50px;
+    height: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    z-index: 100;
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons > .three-circle >
+   .circle-phone, 
+   .circle-question, 
+   .circle-marker {
+    margin: 2px;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons > .three-circle >
+  .circle-phone, 
+  .circle-question {
+    background-color: #48a74a;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons > 
+  .three-circle > .circle-marker > span {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons > 
+  .navbarMenuircle i, 
+  .navbarMenuircle-phone i, 
+  .navbarMenuircle-question i {
+    font-size: 16px;
+    font-weight: 0;
+    color: white;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons > 
+  .circle span, 
+  .circle-phone span, 
+  .circle-question span {
+    font-size: 16px;
+    font-weight: 0;
+    color: white;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons > 
+  .circle-marker span,
+  .circle-globe span {
+    font-size: 16px;
+    font-weight: 0;
+    color: black;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open  > .kkk > .icon-buttons >
+  .circle span, 
+  .circle-phone span, 
+  .circle-question span, 
+  .circle-marker span, .circle-globe span {
+    margin: 2px;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .circle-globe {
+    padding-left: 10px;
+  }
+  
+  .wrap-navbar > div > .navbarMenu >  .open  > .kkk > .icon-buttons > 
+  .nav-menu > .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .sub-menu {
+    width: 53%;
+    display: flex;
+    justify-content: space-between
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .sub-menu a {
+    text-decoration: none;
+  }
+
+  .wrap-navbar > div > .navbarMenu > .open {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open > .kkk {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open > .kkk > .sign-signup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open > .kkk > .sign-signup {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .sign-in, .sign-up, .btn-review {
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open > .kkk  > .sign-signup > .sign-in, 
+  .wrap-navbar > div > .navbarMenu > .open > .kkk  > .sign-signup > .btn-review {
+    color: #48a74a;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open > .kkk > .sign-signup >  .sign-in span, .sign-up span {
+    width: 62px;
+    margin: 5px;
+    color: #48a74a;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open > .kkk > .sign-signup >  div > .btn-review span {
+    margin: 5px;
+    color: #48a74a;
+  }
+  
+  .wrap-navbar > div > .navbarMenu > .open > .kkk > .sign-signup > .sign-in, .sign-up {
+    color: #48a74a;
+    border: 2px solid #48a74a;
+  }
+
+  .wrap-navbar > div > .navbarMenu > .open > .kkk > .sign-signup > .sign-in, .sign-up {
+    width: 30%;
+    margin: 10px;
+  }
+}  
